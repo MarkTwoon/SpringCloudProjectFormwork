@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+eureka:
+  server:
+    enableSelfPreservation: false
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #defaultZone: http://eureka9002.com:9002/eureka/,http://eureka9003.com:9003/eureka/
+ 
+      

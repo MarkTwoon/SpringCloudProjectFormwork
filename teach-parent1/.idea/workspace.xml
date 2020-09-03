@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2dc8fc62-8cf1-40cf-9099-8078e906f253" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ea6cxNHbdguObIpTJxn5WX88or" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16126418" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkSpace\teach-parent1\sql" />
+      <recent name="D:\ideaWorkSpace\teach-parent1\teach-ioc1\src\main\java\com\chinasoft\springcloud_1\util" />
+      <recent name="D:\ideaWorkSpace\teach-parent1\teach-ioc1\src\main\resources\static" />
+      <recent name="D:\ideaWorkSpace\teach-parent1\teach-orm1\src\main\java\com\chinasoft\springcloud_1\service\impl" />
+      <recent name="D:\ideaWorkSpace\teach-parent1\teach-orm1\src\main\java\com\chinasoft\springcloud_1\service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkSpace\teach-parent1\teach-ioc1\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.IocApplication">
+    <configuration name="EurakeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="teach-eurake1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chinasoft.springcloud_1.EurakeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="teach-ioc1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chinasoft.springcloud_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chinasoft.springcloud_1.IocApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeachEurake1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="teach-eurake1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chinasoft.springcloud_1.TeachEurake1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeachIoc1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="teach-ioc1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chinasoft.springcloud_1.TeachIoc1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeachOrm1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="teach-orm1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chinasoft.springcloud_1.OrmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeachZull1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="teach-zull1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chinasoft.springcloud_1.ZullApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.IocApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@19432365" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@19432365" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7c8a37f9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dc8fc62-8cf1-40cf-9099-8078e906f253" name="Default Changelist" comment="" />
+      <created>1594547440179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594547440179</updated>
+      <workItem from="1594547443974" duration="562000" />
+      <workItem from="1594549126494" duration="24573000" />
+      <workItem from="1595550872439" duration="144000" />
+      <workItem from="1599059865698" duration="716000" />
+      <workItem from="1599060704641" duration="396000" />
+      <workItem from="1599061189328" duration="563000" />
+      <workItem from="1599061777860" duration="725000" />
+      <workItem from="1599098311320" duration="5598000" />
+      <workItem from="1599104869403" duration="454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

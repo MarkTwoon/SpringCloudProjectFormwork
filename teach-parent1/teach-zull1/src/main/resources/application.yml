@@ -1,0 +1,35 @@
+server:
+  port: 6001
+  #因为zull路由微服务 十分特殊  是总部的启动线程 所以端口号用6开头
+
+
+spring:
+  application:
+    name: teach-zull1
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://eureka9003.com:9003/eureka/,http://eureka9002.com:9002/eureka/,http://eureka9001.com:9001/eureka/
+      defaultZone: http://eureka9001.com:9001/eureka/
+  instance:
+    instanceId: teach-zull1:6001 is already                        #自定义服务名称信息
+    preferIpAddress: true                                   #访问路径可以显示IP地址
+
+      #zuul:
+      #prefix: /              #前缀 一般允许加 但处理路径目录结构完善 则不需要额外加url前缀
+      #ignored-services: microservice-provider2-hystrix2,springcloud-ioc     #指定n个服务名过滤   用逗号分隔
+      #现在注册中心有2个注册线程  要进行多个微服务名 过滤及设置代理名
+      #routes:
+      #teach-ioc1:  #zull设置多个服务代理名 要根据微服务版块名  依次设置
+      #serviceId: teach-ioc1
+      #path: /ioc/**
+      #springcloud-ioc:
+      #serviceId: springcloud-ioc
+      #path: /ioc/**
+
+
+info:
+  app.name: teach-zull1
+  company.name: www.lzj.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}

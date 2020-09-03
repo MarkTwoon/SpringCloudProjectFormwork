@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinasoft.springcloud_1.dao.UserDao">
+
+<select id="selectCityAll" resultType="map">
+select tcity.CITY_ID  as cityId,
+tcity.CITY_NAME  as cityName,
+tcity.CITY_PINYINMA  as   cityPinYinMa,
+tcity.CITY_NUM  as  cityNum
+   from tb_city  as  tcity 
+</select>
+
+<select id="headNumber" resultType="map"   parameterType="map">
+SELECT  count(*)+(select CITY_NUM from tb_city where CITY_ID = #{cityId}) as joinUser,IFNULL(SUM(ash.SHARE_NUMBER),0)+(select CITY_NUM from tb_city where CITY_ID = #{cityId})   as shareMan, 
+ IFNULL(SUM(ash.SHARE_NUMBER),0)+count(*)+(select CITY_NUM * 2 from tb_city where CITY_ID = #{cityId}) as readMan FROM admin_share as ash JOIN tb_user as tu on ash.USER_ID=tu.USER_ID 
+ where tu.CITY_ID = #{cityId};
+</select>
+
+</mapper>

@@ -1,0 +1,52 @@
+server:
+  port: 8001
+
+mybatis:
+  config-location: "classpath:mybatis/mybatis.cfg.xml"        # mybatis配置文件所在路径
+  mapper-locations:
+    - "classpath:mybatis/mapper/**/*.xml"                     # mapper映射文件
+  type-aliases-package: com.chinasoft.springcloud_1.entity            别名类所在包
+
+logging:
+  level:
+    com:
+      chinasoft:
+        springcloud_1:
+          dao: TRACE
+
+spring:
+  application:
+    name: Teach-orm1                          #微服务的名字
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver                # mysql驱动包
+    type: com.alibaba.druid.pool.DruidDataSource              # 当前数据源操作类型
+    url: "jdbc:mysql://localhost:3306/youhuiquan"                    # 数据库名称
+    username: root
+    password: 123456
+  druid:
+    initial-size: 5                                         # 初始化连接数
+    max-total: 5                                            # 最大连接数
+    max-wait-millis: 200                                    # 等待连接获取的最大超时时间
+    min-idle: 5                                             # 数据库连接池的最小维持连接数
+
+
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://localhost:9001/eureka
+      #defaultZone: http://eureka9001.com:9001/eureka/,http://eureka9002.com:9002/eureka/,http://eureka9003.com:9003/eureka/
+      defaultZone: http://eureka9001.com:9001/eureka/
+
+  instance:
+    instance-id: teach-orm1:8001  is already	#自定义服务名称信息
+    prefer-ip-address: true                                   #访问路径可以显示IP地址
+
+info:
+  app.name: Teach-orm1:8001
+  company.name: www.lzj.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+
+
+
+
